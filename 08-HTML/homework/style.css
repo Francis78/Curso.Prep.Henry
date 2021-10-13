@@ -11,6 +11,11 @@ h3,h4{
     text-align: center;
 }
 .spam{
+    display: block;
+    text-align: center;
+}
+.restf{
+    display: block;
     text-align: center;
 }
 
@@ -32,7 +37,10 @@ li,ul,img{
     margin-right: auto;
 }
 #spanId{
+    display: block;
+    text-align: center;
     font-size: 18px;
     margin: 50px;
+    
     
 }
