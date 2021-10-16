@@ -114,7 +114,13 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  return numero % 1 === 0; 
+  //return numero % 1 === 0; 
+  var floorNum = Math.floor(numero)
+  if (numero === floorNum) {
+    return true
+  }else{
+    return false
+  }
 }
 
 function fizzBuzz(numero) {
@@ -199,6 +205,7 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+  
   if(numero > 99 && numero < 1000){
     return true
   }
